@@ -2,9 +2,9 @@
 #define PROJECTFUNCTIONS_H
 
 #define BLYNK_PRINT Serial  //enabling output to Serial monitor of what Blynk.Edgent is doing for debugging purposes
-#define BLYNK_TEMPLATE_ID "TMPLToQIqG4l"
+#define BLYNK_TEMPLATE_ID "***************"
 #define BLYNK_DEVICE_NAME "IoT Based Automated Drug Infusion Device "
-#define BLYNK_AUTH_TOKEN "illICME4BOjF-2xQrtZSCJBUcQVLvdez"
+#define BLYNK_AUTH_TOKEN "**************************"
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
