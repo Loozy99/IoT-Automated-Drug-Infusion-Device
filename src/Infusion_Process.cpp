@@ -1,6 +1,6 @@
 #include "ProjectFunctions.h"
 
-void Infusion_Process(int steps_to_move, unsigned long step_delay)
+void Infusion_Process(int steps_to_move)
 {
   int steps_left = abs(steps_to_move);  // how many steps to take
   int step_number = 0;
