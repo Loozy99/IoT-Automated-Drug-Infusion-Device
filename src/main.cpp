@@ -93,7 +93,7 @@ void setup() {
 
   //create a task that will be executed in the Task2code() function, with priority 1 and executed on core 1
   xTaskCreatePinnedToCore(
-                    TaskCcode,   /* Task function. */
+                    TaskBcode,   /* Task function. */
                     "TaskB",     /* name of task. */
                     10000,       /* Stack size of task */
                     NULL,        /* parameter of the task */

@@ -1,6 +1,6 @@
 #include "ProjectFunctions.h"
 
-void IRAM_ATTR airBubble_ISR () {
+void IRAM_ATTR airBubble_ISR() {
 
 do{
     display.clearDisplay();

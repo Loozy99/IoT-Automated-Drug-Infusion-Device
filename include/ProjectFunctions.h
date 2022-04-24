@@ -81,6 +81,7 @@ void Infusion_Process(int);
 void stepMotor(int);
 float SetSpeed(float, int);
 void Send_Time (int, int, int, bool, int);
+void TaskBcode( void * pvParameters );
 void TaskCcode( void * pvParameters );
 void TaskDcode( void * pvParameters );
 void PID_Control (float, float, unsigned long);
